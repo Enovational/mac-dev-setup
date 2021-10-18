@@ -1,0 +1,25 @@
+---
+- hosts: all
+
+  vars_files:
+    - config.yml
+
+  pre_tasks:
+    - name: Include playbook configuration.
+      include_vars: "{{ item }}"
+      with_fileglob:
+        - "{{ playbook_dir }}/config.yml"
+      tags: ['always']
+  
+  roles:
+    - role: elliotweiser.osx-command-line-tools
+    - role: geerlingguy.mac.homebrew
+      tags: ['homebrew']
+    - role: markosamuli.asdf
+      asdf_plugins:
+      - name: "ruby"
+        versions: ["2.7.3"]
+        global: "2.7.3"
+      - name: "nodejs"
+        versions: ["16.10.0"]
+        global: "16.10.0"
