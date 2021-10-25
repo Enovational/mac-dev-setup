@@ -8,6 +8,9 @@ $ git clone https://github.com/morochena/mac-dev-setup.git ~/mac-dev-setup
 $ cd ~/mac-dev-setup
 $ ansible-galaxy install -r requirements.yml
 $ ansible-playbook playbook.yml --ask-become-pass
+
+$ source ~/.zshrc
+$ sh postinstall.sh 
 ```
 
 Additional steps:
