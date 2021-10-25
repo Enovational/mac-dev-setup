@@ -3,9 +3,10 @@
 
 ### To Run
 
-`$ ansible-galaxy install -r requirements.yml`
-`$ ansible-playbook playbook.yml --ask-become-pass`
-
+``` bash
+$ ansible-galaxy install -r requirements.yml
+$ ansible-playbook playbook.yml --ask-become-pass
+```
 
 - set fira code as default font
 - config git
