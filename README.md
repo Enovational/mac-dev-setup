@@ -19,3 +19,9 @@ Additional steps:
 
 - set the following in your .zshrc:
 `export NODE_OPTIONS="--max-old-space-size=8000"`
+
+### Run ES, Mongo, Redis
+``` bash
+$ cd ~/mac-dev-setup/deps-Formability
+$ docker-compose up -d
+```
