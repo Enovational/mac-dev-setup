@@ -1,0 +1,47 @@
+---
+downloads: ~/.ansible-downloads/
+
+homebrew_cask_appdir: /Applications
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-fonts
+  - mongodb/brew
+
+
+homebrew_installed_packages:
+  - autoconf
+  - bash-completion
+  - git
+  - github/gh/gh
+  - gpg
+  - sqlite
+  - imagemagick
+  - awscli
+  - mongodb-community
+  - mongodb-database-tools
+  - starship
+
+homebrew_cask_apps:
+  - iterm2
+  - chromedriver
+  - docker
+  - dropbox
+  - google-chrome
+  - licecap
+  - slack
+  - transmit
+  - visual-studio-code
+  - rubymine
+  - tower
+  - muzzle
+  - robo-3t
+  - font-fira-code-nerd-font
+
+
+global_gems:
+  - rails
+  - mailcatcher
+
+global_node_modules:
+  - yarn
