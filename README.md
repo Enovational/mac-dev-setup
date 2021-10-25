@@ -1,5 +1,5 @@
 ### Requirements
-- Ansible
+- Ansible installed (via homebrew)
 
 ### To Run
 
@@ -8,9 +8,12 @@ $ ansible-galaxy install -r requirements.yml
 $ ansible-playbook playbook.yml --ask-become-pass
 ```
 
-- set fira code as default font
-- config git
+Additional steps:
+- set fira code as default iterm2 font
+- configure git
+
 - github access
 - aws access
 
+- set the following in your .zshrc:
 `export NODE_OPTIONS="--max-old-space-size=8000"`
