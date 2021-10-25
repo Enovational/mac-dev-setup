@@ -21,6 +21,7 @@ homebrew_installed_packages:
   - mongodb-community
   - mongodb-database-tools
   - starship
+  - docker-compose
 
 homebrew_cask_apps:
   - iterm2
