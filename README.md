@@ -17,12 +17,11 @@ $ sh postinstall.sh
 ```
 
 Manual steps after running:
-- Set fira code as default iterm2 font
+- Set Fira Code as default iTerm2 font
 - Configure git name/email 
-- Github access
-- Set up AWS keys
 - set the following in your .zshrc:
 `export NODE_OPTIONS="--max-old-space-size=8000"`
+`eval $(starship init zsh)`
 
 ### Run ES, Mongo, Redis
 ``` bash
