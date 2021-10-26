@@ -20,8 +20,11 @@ Manual steps after running:
 - Set Fira Code as default iTerm2 font
 - Configure git name/email 
 - set the following in your .zshrc:
-`export NODE_OPTIONS="--max-old-space-size=8000"`
-`eval $(starship init zsh)`
+
+``` bash
+export NODE_OPTIONS="--max-old-space-size=8000"
+eval $(starship init zsh)
+```
 
 ### Run ES, Mongo, Redis
 ``` bash
