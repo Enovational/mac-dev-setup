@@ -1,5 +1,8 @@
 ### Requirements
-- None
+
+None, if you manually installed apps (eg. Chrome) before running these script you may run into an error. You can manually remove those apps from `config.yml` and you can try to run it again.
+
+These instructions and scripts attempt to be idempotent, so there shouldn't be any issues running them multiple times. 
 
 ### To Run
 
