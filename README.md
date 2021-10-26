@@ -26,7 +26,7 @@ export NODE_OPTIONS="--max-old-space-size=8000"
 eval $(starship init zsh)
 ```
 
-### Run ES, Mongo, Redis
+### Run ElasticSearch, Mongo, Redis
 ``` bash
 $ cd ~/mac-dev-setup/deps-Formability
 $ docker-compose up -d
