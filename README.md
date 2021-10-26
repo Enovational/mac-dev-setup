@@ -1,11 +1,14 @@
 ### Requirements
-- Ansible installed (via homebrew)
+- None
 
 ### To Run
 
 ``` bash
 $ git clone https://github.com/morochena/mac-dev-setup.git ~/mac-dev-setup
 $ cd ~/mac-dev-setup
+
+$ sh preinstall.sh
+
 $ ansible-galaxy install -r requirements.yml
 $ ansible-playbook playbook.yml --ask-become-pass
 
@@ -13,13 +16,11 @@ $ source ~/.zshrc
 $ sh postinstall.sh 
 ```
 
-Additional steps:
-- set fira code as default iterm2 font
-- configure git
-
-- github access
-- aws access
-
+Manual steps after running:
+- Set fira code as default iterm2 font
+- Configure git name/email 
+- Github access
+- Set up AWS keys
 - set the following in your .zshrc:
 `export NODE_OPTIONS="--max-old-space-size=8000"`
 
