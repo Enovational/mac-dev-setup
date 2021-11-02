@@ -19,7 +19,7 @@ $ source ~/.zshrc
 $ sh postinstall.sh 
 ```
 
-Manual steps after running:
+#### Manual steps after running:
 - Set Fira Code as default iTerm2 font
 - Configure git name/email 
 - set the following in your .zshrc:
@@ -34,3 +34,6 @@ eval $(starship init zsh)
 $ cd ~/mac-dev-setup/deps-Formability
 $ docker-compose up -d
 ```
+
+### ASDF
+I use [asdf](https://github.com/asdf-vm/asdf) for language version management (vs of rbenv/nvm, etc). The postinstall script automatically installs Ruby and Node for you and sets them as global defaults. 
