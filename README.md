@@ -36,4 +36,4 @@ $ docker-compose up -d
 ```
 
 ### ASDF
-I use [asdf](https://github.com/asdf-vm/asdf) for language version management (vs rbenv, nvm, etc). The postinstall script automatically installs Ruby and Node for you and sets them as global defaults. 
+I use [asdf](https://github.com/asdf-vm/asdf) for language version management (vs rbenv, nvm, etc). The script automatically installs Ruby and Node for you and sets them as global defaults. 
